@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ejemplo ventas": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
