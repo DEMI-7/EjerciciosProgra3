@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="ejemplo ventas/ejemplo ventas.csproj" Id="c3ce4740-7a53-4b28-9cc6-b62ba802d222" />
   <Project Path="ejercicios1/ejercicios1.csproj" Id="577329f6-2f17-4aee-99a1-b865a0de4044" />
+  <Project Path="Ejercicios2/Ejercicios2.csproj" Id="00f7e747-2bb9-4a50-ad47-e38d066ec978" />
   <Project Path="prueba net framework/prueba net framework.csproj" Id="02e1f79f-bf78-440c-a035-aa7dfe7ef074" />
 </Solution>
