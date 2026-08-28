@@ -10,7 +10,7 @@ namespace Ejercicios2
         private int edadPrivate;
         public int edadPublic
         { 
-            get; 
+            get { return edadPrivate; } 
             set
             {
                 if (value >= 0)
