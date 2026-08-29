@@ -4,54 +4,46 @@ using System.Text;
 
 namespace Ejercicios2
 {
-    class Animal
+    public abstract class Animal
     {
-        public string nombre { get; set; }
-        private int edadPrivate;
-        public int edadPublic
+        public string Nombre { get; set; }
+        private int _edad;
+        public int Edad
         { 
-            get { return edadPrivate; } 
+            get { return _edad; } 
             set
             {
                 if (value >= 0)
                 {
-                    edadPrivate = value;
+                    _edad = value;
                 }
                 else
                 {
-                    edadPrivate = 0;
+                    _edad = 0;
                 }
             } 
         }
-        public string especie {get; set;}
+        public string Especie {get; set;}
 
         public Animal()
         {
-            this.nombre = string.Empty;
-            this.edadPublic = 0;
-            this.especie = string.Empty;
+            this.Nombre = string.Empty;
+            this._edad = 0;
+            this.Especie = string.Empty;
         }
 
         public Animal(string nombre , int edad, string especie)
         {
-            this.nombre = nombre;
-            this.especie = especie;
-            
-            if (edad >= 0)
-            {
-                this.edadPublic = edad;
-            }
-            else
-            {
-                edad = 0;
-            }
+            this.Nombre = nombre;
+            this.Especie = especie;
+            this.Edad = edad;
         }
 
-        public virtual void describir ()
+        public virtual void Describir ()
         {
-            Console.WriteLine("Nombre: " + nombre);
-            Console.WriteLine("Edad: " + edadPrivate);
-            Console.WriteLine("Especie: " + especie);
+            Console.WriteLine("Nombre: " + Nombre);
+            Console.WriteLine("Edad: " + Edad);
+            Console.WriteLine("Especie: " + Especie);
         }
     }
 }

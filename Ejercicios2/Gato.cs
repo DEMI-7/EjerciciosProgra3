@@ -4,31 +4,28 @@ using System.Text;
 
 namespace Ejercicios2
 {
-    class Gato : Animal
+    class Gato : Animal, IAtendible
     {
-        public bool esDeInterior { get; set; }
+        public bool EsDeInterior { get; set; }
 
         public Gato (string nombre, int edad, bool esDeInterior)
         {
-            this.nombre = nombre;
-            this.esDeInterior = esDeInterior;
-            this.especie = "Gato";
-            
-            if (edad >= 0)
-            {
-                this.edadPublic = edad;
-            }
-            else
-            {
-                this.edadPublic = 0;
-            }
+            this.Nombre = nombre;
+            this.EsDeInterior = esDeInterior;
+            this.Especie = "Gato";
+            this.Edad = edad;
         }
 
-        public override void describir()
+        public override void Describir()
         {
-            base.describir();
-            Console.WriteLine("Es de Interior: " + this.esDeInterior);
+            Console.WriteLine("---------------");
+            base.Describir();
+            Console.WriteLine("Es de Interior: " + this.EsDeInterior + "\n--------------");
         }
 
+        public void Atender()
+        {
+            Console.WriteLine("Atendiendo al gato " + this.Nombre + ": desparasitación.");
+        }
     }
 }

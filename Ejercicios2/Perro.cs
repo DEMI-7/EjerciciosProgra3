@@ -4,30 +4,28 @@ using System.Text;
 
 namespace Ejercicios2
 {
-    class Perro : Animal
+    class Perro : Animal, IAtendible
     {
-        public string raza { get; set; }
+        public string Raza { get; set; }
 
         public Perro (string nombre, int edad, string raza)
         {
-            this.nombre = nombre;
-            this.raza = raza;
-            this.especie = "Perro";
-
-            if (edad >= 0)
-            {
-                this.edadPublic = edad;
-            }
-            else
-            {
-                this.edadPublic = 0;
-            }
+            this.Nombre = nombre;
+            this.Raza = raza;
+            this.Especie = "Perro";
+            this.Edad = edad;
         }
 
-        public override void describir()
+        public override void Describir()
         {
-            base.describir();
-            Console.WriteLine("Raza: " + this.raza);
+            Console.WriteLine("---------------");
+            base.Describir();
+            Console.WriteLine("Raza: " + this.Raza + "\n--------------");
+        }
+
+        public void Atender()
+        {
+            Console.WriteLine("Atendiendo al perro " + this.Nombre + ": revisión general y vacunas.");
         }
     }
 }
