@@ -45,5 +45,10 @@ namespace Ejercicios2
         {
             Console.WriteLine("Atendiendo al Conejo " + this.Nombre + ": control de peso.");
         }
+
+        public override void HacerSonido()
+        {
+            Console.WriteLine("Squeak");
+        }
     }
 }

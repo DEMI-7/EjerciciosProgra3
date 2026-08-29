@@ -1,0 +1,4 @@
+_ Creo que se podria agregar una relacion que indique al dueño desde la mascota, Por ejemplo, suponiendo que el programa nos permite ver a las mascotas por nombre y desde ese mismo apartado nos indica su dueño, ya facilitando accceder a sus datos por ejemplo el numero telefonico por si hace falta llamarlo
+_ Cliente tendria una primary key que seria si dni y animal tendria una PK autogenerada unica, dentro de ciente hay una FK que es el id del animal y en animla hay una FK que puede ser el dni del cliente
+_ Bajo la estructura que plantie en los puntos anteriores, no tiene sentido ya que desde animal se pude acceder a los datos de su dueño
+_ Creo que seguro existiria la clase ventana, y seguro varias clases de menus, tambien habrian clases dedicadas a tener metodos para conectar con la base de datos

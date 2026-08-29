@@ -27,5 +27,10 @@ namespace Ejercicios2
         {
             Console.WriteLine("Atendiendo al gato " + this.Nombre + ": desparasitación.");
         }
+
+        public override void HacerSonido()
+        {
+            Console.WriteLine("Miauu");
+        }
     }
 }

@@ -27,5 +27,10 @@ namespace Ejercicios2
         {
             Console.WriteLine("Atendiendo al perro " + this.Nombre + ": revisión general y vacunas.");
         }
+
+        public override void HacerSonido()
+        {
+            Console.WriteLine("whoof whoof");
+        }
     }
 }

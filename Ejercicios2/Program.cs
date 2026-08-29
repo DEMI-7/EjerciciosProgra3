@@ -83,13 +83,18 @@ namespace Ejercicios2
             {
                 item.Atender();
             }
-             */
 
             Veterinario Profesional1 = new Veterinario("Sebastian", "Especialista de la salud de animales domesticos, Universidad de Buenos Aires");
             DateTime Fecha1 = new DateTime(2026,9,10);
             Turno T1 = new Turno(listaAnimales[6], Profesional1, Fecha1);
 
             T1.MostrarResumen();
+             */
+
+            Console.WriteLine(RegistroVeterinaria.GenerarId());
+            Console.WriteLine(RegistroVeterinaria.GenerarId());
+            Console.WriteLine(RegistroVeterinaria.GenerarId());
+
 
             Console.ReadKey();
         }

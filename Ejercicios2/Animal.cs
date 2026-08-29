@@ -45,5 +45,7 @@ namespace Ejercicios2
             Console.WriteLine("Edad: " + Edad);
             Console.WriteLine("Especie: " + Especie);
         }
+
+        public abstract void HacerSonido();
     }
 }
