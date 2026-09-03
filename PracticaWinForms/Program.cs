@@ -12,14 +12,14 @@ namespace PracticaWinForms
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            /*
+            
             FrmLogin login = new FrmLogin();
 
             if (login.ShowDialog() == DialogResult.OK)
             {
-            }
-             */
                 Application.Run(new FrmPrincipal());
+            }
+             
         }
     }
 }

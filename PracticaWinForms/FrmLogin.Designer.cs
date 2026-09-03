@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
-            pictureBox1 = new PictureBox();
             BtnIniciar = new Button();
             txtNombre = new TextBox();
             txtContraseña = new TextBox();
@@ -37,19 +36,10 @@
             lblContraseña = new Label();
             checkMostrarContraseña = new CheckBox();
             picBoxOjito = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)picBoxOjito).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.Location = new Point(362, 63);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(298, 315);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // BtnIniciar
             // 
@@ -117,11 +107,22 @@
             picBoxOjito.TabIndex = 7;
             picBoxOjito.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.UTN_logo;
+            pictureBox2.Location = new Point(439, 122);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(221, 223);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 8;
+            pictureBox2.TabStop = false;
+            // 
             // FrmLogin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             ClientSize = new Size(1064, 681);
+            Controls.Add(pictureBox2);
             Controls.Add(picBoxOjito);
             Controls.Add(checkMostrarContraseña);
             Controls.Add(lblContraseña);
@@ -129,23 +130,20 @@
             Controls.Add(txtContraseña);
             Controls.Add(txtNombre);
             Controls.Add(BtnIniciar);
-            Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(2);
             MaximumSize = new Size(1080, 720);
-            MinimumSize = new Size(1080, 720);
+            MinimumSize = new Size(1080, 678);
             Name = "FrmLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "UNIVERISDAD: Ejemplo";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)picBoxOjito).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Button BtnIniciar;
         private TextBox txtNombre;
         private TextBox txtContraseña;
@@ -153,5 +151,6 @@
         private Label lblContraseña;
         private CheckBox checkMostrarContraseña;
         private PictureBox picBoxOjito;
+        private PictureBox pictureBox2;
     }
 }

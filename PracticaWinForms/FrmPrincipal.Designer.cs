@@ -332,14 +332,15 @@
             // 
             // FrmPrincipal
             // 
-            AutoScaleMode = AutoScaleMode.Inherit;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             ClientSize = new Size(1064, 681);
             Controls.Add(FlpPestaña);
             Controls.Add(FlpSideBar);
             Controls.Add(PnlUsuario);
             Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
-            MinimumSize = new Size(1080, 720);
+            MinimumSize = new Size(1080, 678);
             Name = "FrmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestion UTN";

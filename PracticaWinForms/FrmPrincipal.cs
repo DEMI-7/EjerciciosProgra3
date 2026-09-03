@@ -93,13 +93,17 @@ namespace PracticaWinForms
             ventana.MdiParent = this;
             ventana.StartPosition = FormStartPosition.Manual;
 
-            int margen = 30;
-            ventana.Location = new Point(margen, margen + 10);
+            int margenX = 30;
+            int margenY = (int)(FlpPestaña.Bounds.Height * 1.4f);
 
             int anchoContenedor = this.ClientSize.Width - this.FlpSideBar.Width;
             int altoContenedor = this.ClientSize.Height - this.PnlUsuario.Height;
 
-            ventana.Size = new Size(anchoContenedor - (margen * 2), altoContenedor - (margen * 2));
+            int anchoHijo = anchoContenedor - (margenX * 2);
+            int altoHijo = altoContenedor - (int)(margenY*1.5);
+
+            ventana.Location = new Point(margenX, margenY);
+            ventana.Size = new Size(anchoHijo, altoHijo);
 
             ventana.Show();
             LblPestañaActual.Text = "Alta alumno";
