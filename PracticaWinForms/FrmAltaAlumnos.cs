@@ -32,5 +32,10 @@ namespace PracticaWinForms
                 e.Graphics.DrawRectangle(lapiz, limite);
             }
         }
+
+        private void BtnBusquedaCarreras_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

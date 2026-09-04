@@ -67,7 +67,7 @@
             PnlUsuario.Dock = DockStyle.Top;
             PnlUsuario.Location = new Point(0, 0);
             PnlUsuario.Name = "PnlUsuario";
-            PnlUsuario.Size = new Size(1064, 139);
+            PnlUsuario.Size = new Size(1092, 139);
             PnlUsuario.TabIndex = 0;
             // 
             // lblFecha
@@ -114,7 +114,7 @@
             FlpSideBar.Dock = DockStyle.Left;
             FlpSideBar.Location = new Point(0, 139);
             FlpSideBar.Name = "FlpSideBar";
-            FlpSideBar.Size = new Size(166, 542);
+            FlpSideBar.Size = new Size(166, 571);
             FlpSideBar.TabIndex = 1;
             // 
             // BtnSideBarAlumnos
@@ -334,7 +334,7 @@
             // 
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
-            ClientSize = new Size(1064, 681);
+            ClientSize = new Size(1092, 710);
             Controls.Add(FlpPestaña);
             Controls.Add(FlpSideBar);
             Controls.Add(PnlUsuario);

@@ -17,10 +17,9 @@ namespace PracticaWinForms
 
             if (login.ShowDialog() == DialogResult.OK)
             {
-                Application.Run(new FrmPrincipal());
             }
              */
-             Application.Run(new FrmAltaAlumnos());
+                Application.Run(new FrmPrincipal());
         }
     }
 }
