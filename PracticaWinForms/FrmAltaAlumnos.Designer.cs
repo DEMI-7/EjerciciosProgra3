@@ -47,7 +47,7 @@
             // 
             LblNombre.AutoSize = true;
             LblNombre.Font = new Font("Segoe UI", 15.75F);
-            LblNombre.Location = new Point(312, 70);
+            LblNombre.Location = new Point(163, 32);
             LblNombre.Name = "LblNombre";
             LblNombre.Size = new Size(94, 30);
             LblNombre.TabIndex = 0;
@@ -57,7 +57,7 @@
             // 
             LblApellido.AutoSize = true;
             LblApellido.Font = new Font("Segoe UI", 15.75F);
-            LblApellido.Location = new Point(312, 149);
+            LblApellido.Location = new Point(734, 32);
             LblApellido.Name = "LblApellido";
             LblApellido.Size = new Size(94, 30);
             LblApellido.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             LblFechaNacimiento.AutoSize = true;
             LblFechaNacimiento.Font = new Font("Segoe UI", 15.75F);
-            LblFechaNacimiento.Location = new Point(192, 224);
+            LblFechaNacimiento.Location = new Point(43, 83);
             LblFechaNacimiento.Name = "LblFechaNacimiento";
             LblFechaNacimiento.Size = new Size(214, 30);
             LblFechaNacimiento.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             LblMail.AutoSize = true;
             LblMail.Font = new Font("Segoe UI", 15.75F);
-            LblMail.Location = new Point(330, 302);
+            LblMail.Location = new Point(181, 136);
             LblMail.Name = "LblMail";
             LblMail.Size = new Size(76, 30);
             LblMail.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             LblTelefono.AutoSize = true;
             LblTelefono.Font = new Font("Segoe UI", 15.75F);
-            LblTelefono.Location = new Point(200, 379);
+            LblTelefono.Location = new Point(622, 83);
             LblTelefono.Name = "LblTelefono";
             LblTelefono.Size = new Size(206, 30);
             LblTelefono.TabIndex = 4;
@@ -98,7 +98,7 @@
             TxtNombre.BackColor = Color.FromArgb(237, 242, 255);
             TxtNombre.BorderStyle = BorderStyle.FixedSingle;
             TxtNombre.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            TxtNombre.Location = new Point(409, 68);
+            TxtNombre.Location = new Point(263, 30);
             TxtNombre.Name = "TxtNombre";
             TxtNombre.Size = new Size(325, 35);
             TxtNombre.TabIndex = 5;
@@ -108,7 +108,7 @@
             TxtApellido.BackColor = Color.FromArgb(237, 242, 255);
             TxtApellido.BorderStyle = BorderStyle.FixedSingle;
             TxtApellido.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            TxtApellido.Location = new Point(409, 147);
+            TxtApellido.Location = new Point(834, 30);
             TxtApellido.Name = "TxtApellido";
             TxtApellido.Size = new Size(325, 35);
             TxtApellido.TabIndex = 6;
@@ -118,7 +118,7 @@
             TxtMail.BackColor = Color.FromArgb(237, 242, 255);
             TxtMail.BorderStyle = BorderStyle.FixedSingle;
             TxtMail.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            TxtMail.Location = new Point(409, 300);
+            TxtMail.Location = new Point(263, 134);
             TxtMail.Name = "TxtMail";
             TxtMail.Size = new Size(325, 35);
             TxtMail.TabIndex = 7;
@@ -128,14 +128,14 @@
             TxtTelefono.BackColor = Color.FromArgb(237, 242, 255);
             TxtTelefono.BorderStyle = BorderStyle.FixedSingle;
             TxtTelefono.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            TxtTelefono.Location = new Point(409, 377);
+            TxtTelefono.Location = new Point(834, 81);
             TxtTelefono.Name = "TxtTelefono";
             TxtTelefono.Size = new Size(325, 35);
             TxtTelefono.TabIndex = 8;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(409, 230);
+            dateTimePicker1.Location = new Point(263, 89);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(325, 23);
             dateTimePicker1.TabIndex = 9;
@@ -147,7 +147,7 @@
             BtnConfirmar.FlatAppearance.MouseOverBackColor = Color.FromArgb(45, 198, 255);
             BtnConfirmar.FlatStyle = FlatStyle.Flat;
             BtnConfirmar.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnConfirmar.Location = new Point(409, 564);
+            BtnConfirmar.Location = new Point(503, 239);
             BtnConfirmar.Name = "BtnConfirmar";
             BtnConfirmar.Size = new Size(325, 54);
             BtnConfirmar.TabIndex = 10;
@@ -158,7 +158,7 @@
             // 
             LblCarrera.AutoSize = true;
             LblCarrera.Font = new Font("Segoe UI", 15.75F);
-            LblCarrera.Location = new Point(321, 455);
+            LblCarrera.Location = new Point(743, 136);
             LblCarrera.Name = "LblCarrera";
             LblCarrera.Size = new Size(85, 30);
             LblCarrera.TabIndex = 11;
@@ -167,15 +167,15 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(409, 462);
+            comboBox1.Location = new Point(834, 143);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(325, 23);
             comboBox1.TabIndex = 12;
             // 
             // FrmAltaAlumnos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.White;
             ClientSize = new Size(1694, 814);
             Controls.Add(comboBox1);
@@ -191,7 +191,6 @@
             Controls.Add(LblFechaNacimiento);
             Controls.Add(LblApellido);
             Controls.Add(LblNombre);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "FrmAltaAlumnos";
             Text = "AltaAlumno";
             Paint += FrmAltaAlumnos_Paint;
